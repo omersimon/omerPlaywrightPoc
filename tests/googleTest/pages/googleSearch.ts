@@ -9,7 +9,7 @@ export class GoogleSearchPage {
     }
 
     async navigateTo() {
-        await this.page.goto('https://www.google.com/',{ waitUntil: 'domcontentloaded' });
+        await this.page.goto('https://www.google.com/',{ waitUntil : 'domcontentloaded' });
     }
 
     async search(keyword: string) {
