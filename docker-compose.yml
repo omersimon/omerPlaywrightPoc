@@ -1,0 +1,10 @@
+version: "3"
+services:
+  pw:
+    build: .
+    image: "omerplay"
+#    command: test
+#    volumes:
+#      - ./app/reports:/app/reports
+# to build docker build -t 'omerplay' .
+# to run docker-compose docker-compose up
